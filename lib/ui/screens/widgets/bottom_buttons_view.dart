@@ -61,7 +61,7 @@ class BottomButtonsView extends GetView<HomeController> {
               ],
             ),
             const SizedBox(height: 20),
-            if (controller.isSolved() ||controller.gameOverText!=null )
+            if (controller.startGame && (controller.isSolved() ||controller.gameOverText!=null) )
                Text(
               controller.gameOverText??  'Puzzle Solved!',
                 textAlign: TextAlign.center,
