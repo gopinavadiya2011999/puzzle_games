@@ -1,0 +1,7 @@
+/build/
+/.idea/
+/ios/Runner.xcworkspace/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/pubspec.lock
+/.dart_tool/
